@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.014041">
-<testcase classname="New Account" name="Add new Account Test" time="41.014041">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.155494">
+<testcase classname="New Account" name="Add new Account Test" time="35.155494">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enters username and password......................................passed
 Then user clicks on login button............................................passed
@@ -8,8 +8,6 @@ Then user is on Homepage....................................................pass
 Then user clicks on New Account.............................................passed
 Then User is on New Add new account page....................................passed
 Then User enters Customerid and Accounttype and Initialdeposit..............passed
-And Clicks on Account Submit................................................passed
-Then user gets Account success message......................................passed
 And User exit...............................................................passed
 ]]></system-out>
 </testcase>

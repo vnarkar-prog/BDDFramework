@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16828265200,
+              "duration": 17196622600,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1759087200,
+              "duration": 1480590500,
               "status": "passed"
             },
             "line": 6,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 4176861400,
+              "duration": 2817516200,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 491497300,
+              "duration": 397422000,
               "status": "passed"
             },
             "line": 11,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 2423468300,
+              "duration": 1962580200,
               "status": "passed"
             },
             "line": 12,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 268057200,
+              "duration": 256477300,
               "status": "passed"
             },
             "line": 13,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 13163441800,
+              "duration": 9536883400,
               "status": "passed"
             },
             "line": 14,
@@ -138,34 +138,10 @@
           },
           {
             "result": {
-              "duration": 85400,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Clicks on Account Submit",
-            "match": {
-              "location": "addNewAccountStepDefinitionMap.Clicks_on_Account_Submit()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 191800,
+              "duration": 1507401900,
               "status": "passed"
             },
             "line": 19,
-            "name": "user gets Account success message",
-            "match": {
-              "location": "addNewAccountStepDefinitionMap.user_gets_Account_success_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1903085100,
-              "status": "passed"
-            },
-            "line": 20,
             "name": "User exit",
             "match": {
               "location": "addNewCustomerStepDefinition.User_exit()"

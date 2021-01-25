@@ -63,15 +63,4 @@ public class addNewAccountStepDefinitionMap extends TestBase {
 
 	}
 
-	@Then("^Clicks on Account Submit$")
-	public void Clicks_on_Account_Submit() {
-
-	}
-
-	@SuppressWarnings("deprecation")
-	@Then("^user gets Account success message$")
-	public void user_gets_Account_success_message() {
-
-	}
-
 }

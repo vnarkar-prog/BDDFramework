@@ -15,6 +15,5 @@ Scenario: Add new Account Test
 	|Customerid|Accounttype|Initialdeposit|
 		|12417|Savings|100000|
 		|12417|Current|100111|
-	And Clicks on Account Submit 
-	Then user gets Account success message 
+	
 	And User exit
