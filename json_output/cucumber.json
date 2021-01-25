@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add new Account Test",
+        "description": "",
+        "id": "new-account;add-new-account-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16828265200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1759087200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "addNewAccountStepDefinitionMap.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "mngr302559",
+                  "Umevuqe"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4176861400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 491497300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "addNewCustomerStepDefinition.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2423468300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on New Account",
+            "match": {
+              "location": "addNewAccountStepDefinitionMap.user_clicks_on_New_Account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268057200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on New Add new account page",
+            "match": {
+              "location": "addNewAccountStepDefinitionMap.user_is_on_New_Add_new_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13163441800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Customerid and Accounttype and Initialdeposit",
+            "match": {
+              "location": "addNewAccountStepDefinitionMap.user_enters_and_and(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Customerid",
+                  "Accounttype",
+                  "Initialdeposit"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "12417",
+                  "Savings",
+                  "100000"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "12417",
+                  "Current",
+                  "100111"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Clicks on Account Submit",
+            "match": {
+              "location": "addNewAccountStepDefinitionMap.Clicks_on_Account_Submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user gets Account success message",
+            "match": {
+              "location": "addNewAccountStepDefinitionMap.user_gets_Account_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1903085100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User exit",
+            "match": {
+              "location": "addNewCustomerStepDefinition.User_exit()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "New Account",
+    "description": "",
+    "id": "new-account",
+    "keyword": "Feature",
+    "uri": "C:/Users/vnarkar/eclipse-workspace/BDDFramework/src/main/java/features/addNewAccountMap.feature"
+  }
+]
